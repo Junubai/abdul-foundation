@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Foundation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+   <link rel="stylesheet" href="style.css">
+        
+   
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-home-heart"></i>
+                    <a href="#hero"><img src="img/Abdul.png" alt="Abdul Foundation"></a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#initiatives">Our Initiatives</a></li>
+                    <li><a href="#mission">Our Mission</a></li>
+                    <li><a href="#tours">Tours & Travels</a></li>
+                    <li><a href="#donate">Donate</a></li>
+                    
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Providing Hope and Home to Every Child</h1>
+                <p>Abdul Foundation is committed to providing free quality education, love, hope, and care for orphaned and abandoned children in Uganda.</p>
+                <a href="#donate" class="btn btn-primary">Make a Difference</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="activities-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Activities</h2>
+            </div>
+            
+            <div class="activities-intro">
+                <p>At Abdul Foundation, we offer a wide range of activities designed to nurture creativity, develop skills, and promote physical well-being. Our programs help children discover their passions and build confidence.</p>
+            </div>
+            
+            <div class="activity-categories">
+                <div class="activity-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3>Creative Activities</h3>
+                    </div>
+                    <div class="activity-list">
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <div class="activity-details">
+                                <h4>Painting</h4>
+                                <p>Exploring colors and techniques to express creativity</p>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <i class="fas fa-pencil-alt"></i>
+                            </div>
+                            <div class="activity-details">
+                                <h4>Drawing</h4>
+                                <p>Developing fine motor skills and artistic expression</p>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <i class="fas fa-music"></i>
+                            </div>
+                            <div class="activity-details">
+                                <h4>Music</h4>
+                                <p>Learning instruments, singing, and rhythm activities</p>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <i class="fas fa-theater-masks"></i>
+                            </div>
+                            <div class="activity-details">
+                                <h4>Drama & Theater</h4>
+                                <p>Building confidence through performance and storytelling</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="activity-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-hands"></i>
+                        </div>
+                        <h3>Craft Activities</h3>
+                    </div>
+                    <div class="activity-list">
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <i class="fas fa-seedling"></i>
+                            </div>
+                            <div class="activity-details">
+                                <h4>Clay Modeling</h4>
+                                <p>Sculpting and shaping to develop tactile skills</p>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <i class="fas fa-cut"></i>
+                            </div>
+                            <div class="activity-details">
+                                <h4>Paper Crafts</h4>
+                                <p>Origami, paper mache, and decorative paper art</p>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <i class="fas fa-seedling"></i>
+                            </div>
+                            <div class="activity-details">
+                                <h4>Nature Crafts</h4>
+                                <p>Creating art with natural materials</p>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <i class="fas fa-gem"></i>
+                            </div>
+                            <div class="activity-details">
+                                <h4>Beadwork & Jewelry</h4>
+                                <p>Designing accessories and developing fine motor skills</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="activity-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-running"></i>
+                        </div>
+                        <h3>Games & Sports</h3>
+                    </div>
+                    <div class="activity-list">
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <i class="fas fa-futbol"></i>
+                            </div>
+                            <div class="activity-details">
+                                <h4>Football</h4>
+                                <p>Team building and physical fitness through soccer</p>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <i class="fas fa-football-ball"></i>
+                            </div>
+                            <div class="activity-details">
+                                <h4>Rugby</h4>
+                                <p>Developing strength, strategy, and teamwork</p>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <i class="fas fa-volleyball-ball"></i>
+                            </div>
+                            <div class="activity-details">
+                                <h4>Volleyball</h4>
+                                <p>Coordination and team coordination exercises</p>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <i class="fas fa-basketball-ball"></i>
+                            </div>
+                            <div class="activity-details">
+                                <h4>Netball & Basketball</h4>
+                                <p>Court sports focusing on agility and strategy</p>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <i class="fas fa-table-tennis"></i>
+                            </div>
+                            <div class="activity-details">
+                                <h4>Table Tennis</h4>
+                                <p>Improving reflexes and hand-eye coordination</p>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <i class="fas fa-chess"></i>
+                            </div>
+                            <div class="activity-details">
+                                <h4>Indoor Games</h4>
+                                <p>Chess, carrom, and other strategic board games</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Us</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>The Abdul Foundation was established in 2021, in the aftermath of the COVID-19 pandemic, as a small community-based initiative. Today, it has grown into a recognized and registered organization implementing diverse programs across Uganda. </p>
+                    <p>Our work focuses on providing free primary education, addressing hunger, and promoting health and sanitation awareness. Through these initiatives, we have positively impacted countless lives and transformed many families and communities.</p>
+                    <p>Guided by hope, love, and dedication, we remain committed to creating lasting change—one life at a time.</p>
+                    <p>The Abdul Foundation seeks to provide Free Quality Education, Love, Hope and Care to the Orphaned and Abandoned children of Uganda. There are over 40 million people living in Uganda, More than 10 million are orphaned children.</p>
+                    <p>Natural factors as well as diseases [AIDs, Malaria, Typhoid among others] have wiped out parents, leaving thousands of children with no Parental Love and Care, No education and with little HOPE. We currently fully support (25 kids & 12 youths) and extend support to more than 300 kids aged between 3 to 15 years Old and we make sure all their basic needs are met at their different destinations though most of the children face psychological and social problems as they grow and they are also vulnerable to sexual harassments and exploitation due to lack of care and protection that's why we want to create a safe SHELTER/ HOME for all.</p>
+                    <p>The Abdul Foundation is a faith and Donation based organization. Our Mission, Vision and Objectives are in line with God that our children will grow up to be men and women who know the love of their creator in their respective religions.</p>
+                    <p>The Abdul Foundation has for years supported, strengthened vulnerable families to improve their wellbeing, set up a temporary HOME for Kids of 2 to 15 years old and 8 staff members who look after these children. At 50$ a month you can feed an orphan. Your Generous and Faithful Support will help us achieve our Mission to transform the lives of these Children.</p>
+
+
+
+                </div>
+                <div class="about-image">
+                    <img src="img/Cover Photo.jpg" alt="Children at Abdul Foundation">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Initiatives Section -->
+    <section id="initiatives" class="initiatives">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Initiatives</h2>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/Educate.jpg" alt="Education Program">
+                    </div>
+                    <div class="card-content">
+                        <h3>Quality Education</h3>
+                        <p>Education is the most powerful yet expensive tool in breaking the poverty cycle and empowering future generations. We offer quality education to orphaned children and vulnerable youths (25 in primary level & 12 in vocational training) as well as extending support [books, pencils, bags] to more than 300 children in different destinations. At 80$ a term you can sponsor a primary level student and at 120$ a semester you can sponsor a vocational level student.
+</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="cards">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/Travelers.jpeg" alt="Education Program">
+                    </div>
+                    <div class="card-content">
+                        <h3>Tours & Travels</h3>
+                        <p>Our Tours & Travels program is designed to provide our children with opportunities to explore new places, learn about different cultures, and create lasting memories. Through carefully planned excursions and educational trips, we help broaden their perspectives and inspire their dreams.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                    </div>   
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/Food.jpg" alt="Healthcare Services">
+                    </div>
+                    <div class="card-content">
+                        <h3>Zero Hunger</h3>
+                        <p>An empty belly leads to an empty mind, unhealthy body and unhappy thoughts. High living costs, corruption and embezzlement are key factors to an escalating Malnutrition that has led to stunted growth in many vulnerable orphaned children across Uganda. At 50$ a month you can help feed an orphan.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/Comm.jpg" alt="Healthcare Services">
+                    </div>
+                    <div class="card-content">
+                        <h3>Community Economic Growth</h3>
+                        <p>Empowerment is key to lifting the lives and families out of poverty. Through our Community outreaches we spare time and share entrepreneurial knowledge, skills with vulnerable communities to help build monetary support and sustainability. Craft making, Drawing & Painting are taught as well as providing materials to help them grow their small businesses.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/Water.jpg" alt="Healthcare Services">
+                    </div>
+                    <div class="card-content">
+                        <h3>Clean water and sanitation</h3>
+                        <p>Natural factors as well as poor sanitation, garbage disposal, pit latrines have contaminated the water flows. This has led to inadequate access to clean drinking water.
+                           By implementing water conservation policies & projects like borehole construction, water harvesting and water treatment can help improve the quality of water in the communities.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/Love.jpg" alt="Vocational Training">
+                    </div>
+                    <div class="card-content">
+                        <h3>Good Health and well being</h3>
+                        <p>Access to healthcare is a daily challenge each year that has claimed many lives paving way to an increasing number of orphaned children.
+                           Through health awareness campaigns and education programs [Aids program], Mobile clinics and medical camps, can help reduce on the limited access to health facilities, medical supplies which can put a positive impact on the health of the vulnerable children, Elderly people and the communities as a whole.</p>
+
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Tours & Travels Section -->
+    <section id="tours" class="tours-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Tours & Travels Initiative</h2>
+            </div>
+            
+            <div class="tours-content">
+                <div class="tours-intro">
+                    <h3>Exploring the World, Expanding Horizons</h3>
+                    <p>Our Tours & Travels program is designed to provide our children with opportunities to explore new places, learn about different cultures, and create lasting memories. Through carefully planned excursions and educational trips, we help broaden their perspectives and inspire their dreams.</p>
+                </div>
+                
+                <div class="tours-cards">
+                    <div class="tour-card">
+                        <div class="tour-img">
+                            <img src="img/Trip.jpeg" alt="Educational Trips">
+                        </div>
+                        <div class="tour-content">
+                            <h3>Educational Trips</h3>
+                            <p>Visits to museums, historical sites, and science centers that complement classroom learning and spark curiosity.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tour-card">
+                        <div class="tour-img">
+                            <img src="img/Nature.jpeg" alt="Nature Retreats">
+                        </div>
+                        <div class="tour-content">
+                            <h3>Nature Retreats</h3>
+                            <p>Trips to national parks, beaches, and mountains to help children connect with nature and learn about environmental conservation.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tour-card">
+                        <div class="tour-img">
+                            <img src="img/Culture.jpeg" alt="Cultural Experiences">
+                        </div>
+                        <div class="tour-content">
+                            <h3>Cultural Experiences</h3>
+                            <p>Attending cultural events, visiting different communities, and participating in traditional activities to promote diversity appreciation.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="benefits-container">
+                    <h3 class="text-center">Benefits of Our Tours & Travels Program</h3>
+                    <div class="benefits-grid">
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h4>Educational Growth</h4>
+                            <p>Hands-on learning experiences that complement formal education and stimulate intellectual curiosity.</p>
+                        </div>
+                        
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h4>Emotional Development</h4>
+                            <p>Building confidence, independence, and resilience through new experiences and challenges.</p>
+                        </div>
+                        
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4>Social Skills</h4>
+                            <p>Enhancing communication, teamwork, and relationship-building skills through group travel.</p>
+                        </div>
+                        
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-globe-americas"></i>
+                            </div>
+                            <h4>Cultural Awareness</h4>
+                            <p>Exposure to diverse cultures, traditions, and perspectives fosters understanding and empathy.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonials">
+                    <h3 class="text-center">What Participants Say</h3>
+                    <div class="testimonial-cards">
+                        <div class="testimonial-card">
+                            <div class="testimonial-text">
+                                <p>"The trip to the science museum was incredible! I had never seen so many amazing things in one place. It made me want to become a scientist when I grow up."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="Maria">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Maria, 12</h4>
+                                    <p>Program Participant</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-card">
+                            <div class="testimonial-text">
+                                <p>"Seeing the ocean for the first time was a life-changing experience. I never knew something so vast and beautiful existed. Thank you for this opportunity."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="James">
+                                </div>
+                                <div class="author-info">
+                                    <h4>James, 14</h4>
+                                    <p>Program Participant</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-card">
+                            <div class="testimonial-text">
+                                <p>"As a volunteer, I've seen how these trips transform children. They return with broader perspectives, new interests, and increased confidence. It's truly remarkable."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <img src="img/Cover Photo.jpg" alt="Sarah">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Sarah Johnson</h4>
+                                    <p>Program Volunteer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Mission Section -->
+    <section id="mission" class="mission">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Mission</h2>
+            </div>
+            <div class="mission-content">
+
+                <p>The Abdul Foundation’s mission is to provide love and care, quality education for orphaned children and vulnerable youth, access to clean water, and essential medical care for healthier communities. We also extend economic support to poor families to improve their well-being, reduce the rising number of orphans, and create safe shelters and homes for orphaned children.</p>
+
+
+                
+                <div class="mission-stats">
+                    <div class="stat">
+                        <div class="stat-number">300+</div>
+                        <div class="stat-desc">Children Helped</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">85%</div>
+                        <div class="stat-desc">Literacy Rate</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">8+</div>
+                        <div class="stat-desc">Volunteers</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">4+</div>
+                        <div class="stat-desc">Years of Service</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donation Form Section -->
+    <section id="donate" class="form-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Make a Difference</h2>
+                <p>Your support can transform a child's life. Fill out the form below to make a donation.</p>
+            </div>
+            <div class="form-container">
+                <form id="donation-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                        <div class="error" id="name-error">Please enter your name</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" class="form-control" required>
+                        <div class="error" id="email-error">Please enter a valid email address</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="amount">Donation Amount (USD/UGX)</label>
+                        <input type="number" id="amount" class="form-control" required min="1">
+                        <div class="error" id="amount-error">Please enter a valid donation amount</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message (Optional)</label>
+                        <textarea id="message" class="form-control" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Donate Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Abdul Foundation</h3>
+                    <p>Providing love, care, and education to orphaned children since 2022.</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/abdullatifu" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com/abdulfounda93853" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/abdulfoudation1" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/abdulfoudation6" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                       
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Zziba-Mabamba, Wakiso, Uganda</p>
+                    <p><i class="fas fa-phone"></i> +256-788-155-062</p>
+                    <p><i class="fas fa-phone"></i> +256-746-133-235</p>
+                    <p><i class="fas fa-envelope"></i> abdulfoudation@gmail.com</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <a href="#home">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#initiatives">Our Initiatives</a>
+                    <a href="#mission">Our Mission</a>
+                    <a href="#tours">Tours & Travels</a>
+                    <a href="#donate">Donate</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter to receive updates about our children and programs.</p>
+                    <form id="newsletter-form">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required id="newsletter-email">
+                            <div class="error" id="newsletter-error">Please enter a valid email</div>
+                        </div>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Abdul Foundation. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal" id="success-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <i class="fas fa-check-circle success-icon"></i>
+            <h2>Thank You!</h2>
+            <p>Your donation has been received. Your support is making a difference in children's lives.</p>
+            <button type="button" class="btn btn-primary continue-btn">Continue</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
